@@ -1,0 +1,4 @@
+g++ -I /cygdrive/d/coding/ccpp/headers/ -fpic -c /cygdrive/d/coding/ccpp/lib/src/llist.cpp -o /cygdrive/d/coding/ccpp/lib/bin/llist.o;g++ -shared -o /cygdrive/d/coding/ccpp/lib/shared/libLinkList.so /cygdrive/d/coding/ccpp/lib/bin/llist.o;
+g++ -I /cygdrive/d/coding/ccpp/headers/ -fpic -c /cygdrive/d/coding/ccpp/lib/src/bst.cpp -o /cygdrive/d/coding/ccpp/lib/bin/bst.o;g++ -shared -o /cygdrive/d/coding/ccpp/lib/shared/libBst.so /cygdrive/d/coding/ccpp/lib/bin/bst.o;
+g++ -I /cygdrive/d/coding/ccpp/headers/ -fpic -c /cygdrive/d/coding/ccpp/lib/src/dllist.cpp -o /cygdrive/d/coding/ccpp/lib/bin/dllist.o;g++ -shared -o /cygdrive/d/coding/ccpp/lib/shared/libDllist.so /cygdrive/d/coding/ccpp/lib/bin/dllist.o;
+g++ -I /cygdrive/d/coding/ccpp/headers/ -fpic -c /cygdrive/d/coding/ccpp/lib/src/bbt.cpp -o /cygdrive/d/coding/ccpp/lib/bin/bbt.o;g++ -shared -o /cygdrive/d/coding/ccpp/lib/shared/libBbt.so /cygdrive/d/coding/ccpp/lib/bin/bbt.o;
